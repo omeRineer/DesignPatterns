@@ -33,11 +33,11 @@ namespace Builder
 
     public class WebApplication
     {
-        public readonly IHost _host;
+        public readonly IHost Host;
 
         public WebApplication(IHost host)
         {
-            _host = host;
+            Host = host;
         }
     }
 }

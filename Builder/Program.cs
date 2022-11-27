@@ -8,4 +8,4 @@ builder.Services = new[] { "ProductService", "CategoryService" };
 
 var webApplication= builder.Build();
 
-Console.WriteLine(webApplication._host.Configuration);
+Console.WriteLine(webApplication.Host.Configuration);
